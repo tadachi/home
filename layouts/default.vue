@@ -35,13 +35,13 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import AppLogo from "~/components/AppLogo.vue";
 
 export default {
   components: {
-    AppLogo,
-  },
-}
+    AppLogo
+  }
+};
 </script>
 
 <style lang="scss">
@@ -49,12 +49,12 @@ export default {
   .grid-container {
     display: grid;
     grid-template-areas:
-      'header header'
-      'content content'
-      'footer footer';
-    grid-template-columns: 1fr 6fr;
+      "header header"
+      "content content"
+      "footer footer";
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
-    height: 100vh;
+    height: 98.5vh;
   }
 }
 
@@ -63,10 +63,11 @@ export default {
     grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
     grid-template-areas:
-      'nav header  aside'
-      'nav content aside'
-      'nav content aside'
-      'nav footer  aside';
+      "nav header  aside"
+      "nav content aside"
+      "nav content aside"
+      "nav footer  aside";
+    height: 98.5vh;
   }
 }
 
@@ -103,6 +104,6 @@ footer {
 }
 
 .nav-margin {
-  margin-left: '10px';
+  margin-left: "10px";
 }
 </style>

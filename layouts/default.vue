@@ -32,7 +32,10 @@
       <!-- Footer content -->
       <div v-bind:style="{ width: '20px' }"></div>
       <div class="flex-center">
-        <div>Made with <img width="15" src="~/assets/vue_logo.svg" />ue and Nuxt.js (<img width="15" src="~/assets/nuxt_logo.svg" />)</div>
+        <div style="font-size: 12px">Made with <img width="15" src="~/assets/vue_logo.svg" />ue and Nuxt.js (<img width="15" src="~/assets/nuxt_logo.svg" />)</div>
+      </div>
+      <div class="flex-center">
+        <div style="font-size: 10px">Takumi Adachi &copy; 2018</div>
       </div>
     </footer>
   </div>
@@ -106,7 +109,7 @@ footer {
 
 .nav-flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .nav-margin {
